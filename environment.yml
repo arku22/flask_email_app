@@ -1,6 +1,8 @@
 name: flask_email_app
 dependencies:
   - python=3.10
-  - Flask==2.2.3
-  - python-dotenv==1.0.0
-  - Flask-Postmark==0.3.1
+  - pip
+  - pip:
+    - Flask==2.2.3
+    - python-dotenv==1.0.0
+    - Flask-Postmark==0.3.1
